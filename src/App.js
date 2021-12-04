@@ -1,6 +1,14 @@
+import Navigation from "./components/Navigation";
+import MyStory from "./components/MyStory";
+
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <>
+      <Navigation />
+      <div>
+        <MyStory />
+      </div>
+    </>
   );
 }
 
